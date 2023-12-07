@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>This is modal <i class="fa fa-pagelines" aria-hidden="true"></i></h1>
+{% for i in data%}
+{{i.name}}
+{{i.address}}
+{%endfor%}
+{% endblock %}
